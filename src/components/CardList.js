@@ -16,5 +16,5 @@ email={robots[i].email}/>
   </div>
     );
 }
-//see section 229 at 9:16 for refactored code for cleaner version
+
 export default CardList;
