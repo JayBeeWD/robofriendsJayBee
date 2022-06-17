@@ -4,6 +4,7 @@ import './index.css';
 import App from './containers/App';
 import reportWebVitals from './reportWebVitals';
 import 'tachyons';
+//npm install tachyons
 
 const root = ReactDOM.createRoot(document.getElementById('root'));
 root.render(

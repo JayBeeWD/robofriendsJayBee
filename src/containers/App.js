@@ -23,11 +23,11 @@ class App extends Component {
             this.setState({ searchfield: event.target.value })
   
         } ;
-
+//line 28 'searchfield is assigned a value but never used
         render()  {
-            const { robots, searchfield} = this.state;
-            const filteredRobots = robots.filter(robot => {
-                return robot.name.toLowerCase().includes(this.state.searchfield.toLowerCase()
+            const { robots } = this.state;
+            const filteredRobots = this.state.robots.filter(robots => {
+                return robots.name.toLowerCase().includes(this.state.searchfield.toLowerCase()
             );              
             })
                 return !robots.length ?
